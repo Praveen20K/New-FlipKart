@@ -16,7 +16,7 @@ public class homePage extends FlipKart {
 	public CategoryPage clickBanners()
 	{
 		WebDriverWait wait = new WebDriverWait(driver,10);
-		WebElement select = driver.findElementByXPath("(//a[@class='_3MPlks'])[5]");
+		WebElement select = driver.findElementByXPath("(//a[@class='_3MPlks'])[3]");
 		wait.until(ExpectedConditions.elementToBeClickable(select)).click();
 		return new CategoryPage();
 	}
