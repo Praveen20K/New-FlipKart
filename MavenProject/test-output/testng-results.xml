@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45103" started-at="2020-01-17T16:37:02 IST" finished-at="2020-01-17T16:37:47 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45103" started-at="2020-01-17T16:37:02 IST" finished-at="2020-01-17T16:37:47 IST">
+      <class name="testcase.TC_001FlipKart">
+        <test-method status="PASS" signature="main()[pri:0, instance:testcase.TC_001FlipKart@26aa12dd]" name="main" is-config="true" duration-ms="18376" started-at="2020-01-17T16:37:02 IST" finished-at="2020-01-17T16:37:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="searchResult()[pri:0, instance:testcase.TC_001FlipKart@26aa12dd]" name="searchResult" duration-ms="20082" started-at="2020-01-17T16:37:20 IST" finished-at="2020-01-17T16:37:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchResult -->
+        <test-method status="PASS" signature="windowClose()[pri:0, instance:testcase.TC_001FlipKart@26aa12dd]" name="windowClose" is-config="true" duration-ms="6546" started-at="2020-01-17T16:37:41 IST" finished-at="2020-01-17T16:37:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowClose -->
+      </class> <!-- testcase.TC_001FlipKart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
