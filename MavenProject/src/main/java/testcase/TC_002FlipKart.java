@@ -12,7 +12,6 @@ public class TC_002FlipKart extends FlipKart {
 		new homePage()
 		.visibilityOfImage()
 		.clickBanners()
-		.verifyFilter()
 		.priceLowToHigh()
 		.priceHighToLow()
 		.selectFromBanner()
